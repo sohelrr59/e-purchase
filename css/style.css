@@ -455,3 +455,40 @@ ul li a:hover::before{
 .filter-star{
 	color: #E67473;
 }
+
+/*========================Timer Zone=====================*/
+
+#timer{
+	background: #F1F1F1;
+	padding: 50px 0;
+}
+.timer-box{
+	border: 2px solid #BFBFBF;
+	padding: 10px 30px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.timer-text h4{
+	font-size: 20px !important;
+	font-weight: 500;
+	color: #9a9494;#9a9494;
+	margin-bottom: 0;
+	font-family: sans-serif;
+
+}
+.timer-text h3{
+	font-size: 40px !important;
+	font-weight: 500;
+	color: #DE4947;
+	
+}
+
+.timer-text p{
+	font-size: 14px !important;
+	color: #9a9494;
+	font-family: Time New Roman;
+	
+}
+.timer-box{
+	color: #353535;
+}
