@@ -3,6 +3,9 @@
 	padding: 0;
 	outline: 0;
 }
+body{
+
+}
 ul,ol{
 	list-style-type: none;
 }
@@ -496,12 +499,13 @@ ul li a:hover::before{
 	color: #353535;
 }
 
-/*===latest Products===*/
+/*============Lastest Product==============*/
 
 #latest{
 	padding: 100px 0;
 	position: relative;
 }
+
 .latest-head{
 	position: relative;
 	padding-bottom: 20px;
@@ -583,9 +587,12 @@ ul li a:hover::before{
 	color: #E67473;
 }
 
+
+
 .latest-arrow{
-	transform: translateX(50%);
+	
 }
+
 .latest-arrow .left{
  	border: 1px solid #000;
  	height: 30px;
@@ -609,39 +616,73 @@ ul li a:hover::before{
 
  }
 
-/*--
+/*============Testimonial Section==============*/
 
-.latest-arrow{
-	position: absolute;
-	bottom: -110px;
-	left: 50%;
-	transform: translateX(-50%);
+#testimonial{
+	background: url(../images/testimonial-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	padding: 50px 0px;
 }
- 
- .latest-arrow .left{
- 	color: #fff;
+.testimonial{
+	
+}
+
+.testinonial-pic img{
+	float: left;
+    margin-right: 30px;
+    margin-bottom: 40px;
+}
+.testinonial-text{
+	color: #ffffff;
+}
+.testimonial-text h4{
+	font-size: 20px;
+}
+.testimonial-text h5{
+	font-size: 16px;
+}
+.testimonial-text p{
+	font-size: 14px;
+}
+.signature{
+	float: right;
+}
+
+
+.testimonial-arrow{
+	position: relative;
+    top: 30px;
+}
+.testimonial-arrow .left{
  	border: 1px solid #fff;
  	height: 30px;
  	width: 30px;
- 	margin-left: 10px;
+ 	margin-left: 8px;
  	cursor: pointer;
  	transition: all linear.4s;
- }
-
- .latest-arrow .right{
  	color: #fff;
+}
+.testimonial-arrow .right{
  	border: 1px solid #fff;
  	height: 30px;
  	width: 30px;
- 	margin-left: 10px;
+ 	margin-left: 8px;
  	cursor: pointer;
  	transition: all linear.4s;
+ 	color: #fff;
  }
-
- .latest-arrow .left:hover, .right:hover{
+ .testimonial-arrow .left:hover{
  	background: #de4644;
- 	border: 1px solid #de4644;
+ 	border: 1px solid #fff;
+ 	color: #fff;
 
  }
+ .testimonial-arrow .right:hover{
+ 	background: #de4644;
+ 	border: 1px solid #fff;
+ 	color: #fff;
+ }
 
- */
