@@ -618,6 +618,37 @@ ul li a:hover::before{
 
 /*============Testimonial Section==============*/
 
+.testimonial-head{
+	position: relative;
+	padding-bottom: 50px;
+}
+.testimonial-head:after{
+	position: absolute;
+    content: '';
+    width: 205px;
+    height: 1px;
+    background: #E67473;
+    top: 50px;
+    left: 175px;
+}
+.testimonial-head:before{
+	position: absolute;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: #E67473;
+    top: 56px;
+    left: 175px;
+}
+
+.testimonial-head h5{
+	font-size: 40px;
+	font-weight: 500;
+
+}
+
+
+
 #testimonial{
 	background: url(../images/testimonial-bg.png);
 	background-repeat: no-repeat;
@@ -631,24 +662,31 @@ ul li a:hover::before{
 }
 
 .testinonial-pic img{
-	float: left;
-    margin-right: 30px;
-    margin-bottom: 40px;
+    
 }
 .testinonial-text{
 	color: #ffffff;
 }
 .testimonial-text h4{
 	font-size: 20px;
+	color: #ffffff;
 }
 .testimonial-text h5{
 	font-size: 16px;
+	padding-bottom: 10px !important;
+	color: #ffffff;
 }
 .testimonial-text p{
 	font-size: 14px;
+	color: #ffffff;
+	
 }
-.signature{
+.signature span{
 	float: right;
+	font-family: palace script MT;
+	font-weight: 500;
+	font-size: 24px;
+	color: #ffffff;
 }
 
 
